@@ -42,6 +42,8 @@ git clone https://github.com/<account>/zoho-claude.git ~/zoho-claude
 
 It backs up any existing `~/.claude/CLAUDE.md`, then installs the global rules and agents. Open a new chat and ask "List my subagents" to check.
 
+On Windows, use the PowerShell versions instead: `install.ps1` to install and `sync.ps1` to back up. Run each with `powershell -ExecutionPolicy Bypass -File <script>` from the repo folder. The repo keeps its Mac paths; the scripts switch them for this PC.
+
 ## Safety
 
 - No passwords, API keys or tokens in this repo. Code uses placeholders like `<secret>` and Zoho Connections.

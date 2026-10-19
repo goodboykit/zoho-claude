@@ -13,4 +13,4 @@ The setup was written on a Mac:
 
 **Why:** explains why commands or file paths from the docs fail here.
 
-**How to apply:** on this PC, use the Windows paths above and PowerShell commands. A Windows version of install/sync has been offered but not made yet. Related: [[github-repo]].
+**How to apply:** on this PC, use the Windows paths above and PowerShell commands. Use `install.ps1` / `sync.ps1` (Windows versions, added 2026-10-19): install copies the global rules and agents into `C:\Users\CC3 User\.claude` with Windows paths; sync copies them back with the Mac paths, so the repo stays in Mac form. Related: [[github-repo]].

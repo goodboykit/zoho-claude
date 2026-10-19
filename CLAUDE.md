@@ -6,7 +6,7 @@ Systems developer for internal tools and integrations: Zoho CRM / Creator / Flow
 The real business apps aren't built yet. Answer for the **general case** and the future business app. Don't assume any specific existing app unless the user names it.
 
 ## Where to look (routing)
-All files are in `/Users/goodboykit/zoho-claude/knowledge/`.
+All files are in the `knowledge/` folder next to this file (Mac: `/Users/goodboykit/zoho-claude/knowledge/`, Windows: `C:/Users/CC3 User/zoho-claude/knowledge/`).
 
 | Question is about… | Read | Subagent |
 |---|---|---|
@@ -39,7 +39,7 @@ Every "what is X" answer includes **where to find it**: take the path from `clic
 - Quick question, or anything the knowledge files cover → answer directly. No subagent.
 - One focused job (write a script, design fields, plan a flow) → one subagent.
 - A job with several parts → several subagents, hub-and-spoke (you pass results between them).
-- Subagents follow `/Users/goodboykit/zoho-claude/STANDARDS.md`.
+- Subagents follow `STANDARDS.md` (next to this file).
 
 **Brief every subagent with:**
 ```
