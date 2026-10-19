@@ -1,0 +1,46 @@
+# Glossary (one plain sentence each)
+
+For **where to find** each thing, see `click-paths.md` and the "meaning → where to find it" table at the top of each tool's file.
+
+- **API:** a door that lets two systems talk over the internet.
+- **Access token / refresh token:** short-lived pass to use an API / long-lived pass to get new access tokens.
+- **Accelerator:** a higher commission rate after a target is hit.
+- **Attainment:** the percent of quota someone reached.
+- **Base (Airtable):** one Airtable database.
+- **Blueprint:** a required step-by-step process a record must follow.
+- **Clawback:** taking back commission when a sale is cancelled.
+- **Connection (Zoho):** a saved, authorized link to another service so code doesn't hold passwords.
+- **Connector (Claude / MCP):** what lets Claude reach a tool like Zoho.
+- **Crediting:** deciding who gets credit for a sale.
+- **Custom action:** a button on a Creator report that runs Deluge.
+- **Dashboard:** a screen with several charts.
+- **Deluge:** Zoho's scripting language.
+- **Endpoint:** the URL an API call goes to.
+- **Environment:** a separate copy of an app (development, stage, production).
+- **Field / link name / API name:** a column / the name code uses for it.
+- **Form:** where data is entered in Creator.
+- **ICM:** Incentive Compensation Management, software for commissions (e.g. Varicent).
+- **Idempotent:** safe to run twice without duplicates.
+- **JSON:** a text format for data, like `{"name":"Alex"}`.
+- **Kanban:** a board of cards grouped into columns by status.
+- **Lookup:** a field that links to a record in another form/module.
+- **Low-code:** building apps mostly by clicking, with a little code.
+- **MCP:** the protocol Claude uses to connect to tools.
+- **Module (CRM):** a type of record, like Deals or Contacts.
+- **OAuth:** the standard way to give an app permission to use an account.
+- **Payee:** a person who gets commission.
+- **Portal:** a login area for outside users.
+- **Quota:** a sales target.
+- **Query table:** a table made from an SQL query in Analytics.
+- **Rate limit:** the max number of API calls allowed per second/day.
+- **Record:** one entry (row).
+- **Report:** a view of records (list, Kanban, chart).
+- **REST:** the most common style of web API.
+- **Scope:** what an API token is allowed to do.
+- **SQL:** a language for asking questions of data.
+- **Subagent:** a focused Claude helper that does one job and reports back.
+- **Subform:** a repeating table inside a form.
+- **Sync:** keeping data the same in two systems.
+- **Upsert:** update if it exists, otherwise create.
+- **Webhook:** a system calling your URL when something happens.
+- **Workflow:** automation that runs when something happens or on a schedule.
