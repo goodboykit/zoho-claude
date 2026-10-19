@@ -13,6 +13,7 @@ It turns every Claude chat into a senior low-code developer who explains things 
 | `CLAUDE.md` | The hub: routing table and subagent rules | `~/zoho-claude/CLAUDE.md` |
 | `STANDARDS.md` | How every subagent works and reports | `~/zoho-claude/` |
 | `knowledge/` | One file per tool, plus click paths, UI components, best practices and error fixes | `~/zoho-claude/knowledge/` |
+| `memory/` | Claude's long-term memories (index: `memory/MEMORY.md`) | `~/zoho-claude/memory/` |
 | `EXAMPLES.md` | Sample chats for each type of question | `~/zoho-claude/` |
 | `PROMPTS.md` | Copy-paste prompts | `~/zoho-claude/` |
 | `SETUP.md` | Full setup guide | `~/zoho-claude/` |

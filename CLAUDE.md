@@ -30,6 +30,7 @@ All files are in `/Users/goodboykit/zoho-claude/knowledge/`.
 | Testing a build | — | `zoho-qa` |
 | A word I don't know | `glossary.md` | — |
 | My Zoho account / practice apps | `our-setup.md` | — |
+| Past notes, my preferences, "remember this" | `memory/MEMORY.md` (repo root, not `knowledge/`) | — |
 
 Read only the files the question needs. Keep context small.
 Every "what is X" answer includes **where to find it**: take the path from `click-paths.md` or the tool file's "meaning → where to find it" table.
@@ -62,3 +63,8 @@ Answer from the knowledge files. Say clearly what you'd check once the connector
 - Keep normal permissions. Ask before deleting or bulk-updating anything.
 - Company-specific facts live in "Fill in later" sections. Never invent them. When the user shares a real fact, offer to add it to the right file.
 - Explain using the style in `~/.claude/CLAUDE.md` (simple, short, Step 1/2/3, tiny flow, one-line check).
+
+## Memory
+- All memories live in this repo's `memory/` folder so they back up to GitHub. Read `memory/MEMORY.md` at the start of a work chat.
+- Save a new memory as its own file in `memory/` (frontmatter: name, description, type) and add one line to `memory/MEMORY.md`. Update an existing file rather than adding a duplicate.
+- Don't save memories only in `~/.claude/projects/.../memory/`. No secrets or real customer data in memories.
