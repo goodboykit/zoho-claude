@@ -44,7 +44,7 @@ Every "what is X" answer includes **where to find it**: take the path from `clic
 **Brief every subagent with:**
 ```
 Goal: <what the user wants>
-Type: BUILD | EXPLAIN | FIX | DECIDE | REVIEW
+Type: BUILD | EXPLAIN | NAVIGATE | COMPONENT | FIX | DECIDE | REVIEW
 Known names: <apps, forms, fields, modules, tables, IDs — or "none yet">
 Connector available: <which, or none>
 Allowed to change live data: no (default) | yes, only <what>
